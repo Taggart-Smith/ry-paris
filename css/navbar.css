@@ -1,0 +1,34 @@
+header.navbar {
+    background-color: #e1ad01;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 0px 100px;
+
+}
+
+.navbar > .right-column {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+}
+
+.nav-link{
+    padding: 15px;
+}
+
+.nav-link > a{
+    text-decoration: inherit;
+    color: inherit;
+    padding: 5px;
+}
+
+.logo > h1 {
+    margin: 0px;
+    font-size: 2.7em;
+}
+
+
+.left-logo {
+    padding: 10px;
+}

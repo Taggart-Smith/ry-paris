@@ -1,5 +1,5 @@
 header.navbar {
-    background-color: #e1ad01;
+    background-color: #E0A443;
     display: flex;
     justify-content: space-between;
     padding: 0px 100px 0px 100px;
@@ -23,7 +23,12 @@ header.navbar {
     padding: 5px;
 }
 
-.logo > h1 {
+.left-logo > img {
+    width: 100%;
+    height: 85px;
+}
+
+/* .logo > h1 {
     margin: 0px;
     font-size: 2.7em;
 }
@@ -31,4 +36,4 @@ header.navbar {
 
 .left-logo {
     padding: 10px;
-}
+} */

@@ -1,0 +1,11 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e0a443;
+    padding: 40px;
+}
+
+.morelinks {
+    display: flex;
+    justify-content: space-evenly;
+}

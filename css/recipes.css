@@ -1,0 +1,82 @@
+.timebar{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px;
+}
+
+.middle-section {
+    padding: 0 0 10px 0 ;
+    background-color: #D5DaE7;
+}
+
+.timebar > .timetitle > h2{
+    margin-bottom: 2px;
+}
+
+.time-content {
+    display: flex;
+    justify-content: flex-start;
+    gap: 190px;
+}
+
+.element > p > .element-title {
+    font-weight: 700;
+}
+
+/* Center Column */
+
+.burger-sum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px;
+}
+
+.review-quote {
+    background: #e2e4e9;
+}
+
+.review-quote> h3 {
+    padding: 10px 100px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.reviews > .review-bar {
+    display: flex;
+    align-items: center;
+}
+
+.saveyprint-button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 10px;
+}
+.saveyprint-button > button {
+    background: #a43328;
+    border: none;
+    border-radius: 19px;
+    padding: 10px 20px;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.button:hover {
+    background-color: darkred;
+    color: white;
+
+}
+
+.saveyprint-button > i {
+    border-radius: 50px;
+    border: 1px solid #D5DaE7;
+    padding: 5px;
+    color: #D5DaE7;
+}

@@ -80,3 +80,7 @@
     padding: 5px;
     color: #D5DaE7;
 }
+
+.recipe-wrapper {
+    display: flex;
+}

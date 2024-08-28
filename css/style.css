@@ -4,13 +4,10 @@ body {
 }
 
 .hero{
-    /* background-image: url(/images/hero-image.jpg); */
     display: flex;
     overflow: hidden;
     height: 39vw;
-    /* width: 100vw; */
     position: relative;
-    margin-top: 5px;
 }
 
 .hero img {
@@ -19,11 +16,9 @@ body {
     width: 100%; 
     height: 100%; 
     position: absolute; 
-    /* top: 0; 
-    left: 0; */
 }
 
-.hero > .startofweek {
+.hero > .startofweek, .hamburgerofweek {
     background-color: white;
     position: absolute;
     bottom: 130px;
@@ -32,5 +27,9 @@ body {
 }
 
 .startofweek > h1 {
+    margin: 0px;
+}
+
+.hamburgerofweek > h1 {
     margin: 0px;
 }

@@ -82,5 +82,7 @@
 }
 
 .recipe-wrapper {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 100px;
 }

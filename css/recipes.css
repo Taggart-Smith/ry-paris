@@ -1,4 +1,8 @@
-.timebar{
+.hero img {
+    object-position: center;
+}
+
+.timebar {
     display: flex;
     flex-direction: column;
     margin: 0px 100px;
